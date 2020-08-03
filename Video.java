@@ -14,7 +14,8 @@ public class Video {
     this.size = size;
   }
 
-  public void setLatency(int endNum, int requestCount) {
+  // set the number of requests from the given endpoint
+  public void setRequest(int endNum, int requestCount) {
     requests[endNum] = requestCount;
   }
 
